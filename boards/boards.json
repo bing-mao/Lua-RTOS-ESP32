@@ -337,7 +337,7 @@
     },
     {
         "id": "DOIT-ESP32-DEVKIT-V1",
-        "description": "DOIT ESP32 DEVKIT V1",
+        "description": "JCI ESP32 DEVKIT V1",
         "manufacturer": "doit.am",
         "brand": "",
         "type": "DOIT-ESP32-DEVKIT-V1",
