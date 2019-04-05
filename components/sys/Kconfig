@@ -14,7 +14,13 @@ menu "Lua RTOS"
 
    choice LUA_RTOS_BOARD_TYPE
       prompt "Firmware type"
-      default LUA_RTOS_FIRMWARE_WHITECAT_ESP32_N1
+      default LUA_RTOS_FIRMWARE_JCI_ESP32_CONTROLLER
+
+      config LUA_RTOS_FIRMWARE_JCI_ESP32_CONTROLLER
+         bool "JCI ESP32 CONTROLLER"
+
+      config LUA_RTOS_FIRMWARE_JCI_ESP32_CONTROLLER_OTA
+         bool "JCI ESP32 CONTROLLER with OTA"
 
       config LUA_RTOS_FIRMWARE_WHITECAT_ESP32_N1
          bool "Whitecat ESP32N1"

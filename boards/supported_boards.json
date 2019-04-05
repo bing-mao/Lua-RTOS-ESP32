@@ -1,5 +1,24 @@
 [
     {
+        "description": "JCI ESP32 CONTROLLER",
+        "manufacturer": "www.jci.com",
+        "image": "",
+        "usb_vid_pid": "10C4:EA60",
+        "usb_port_exp": "",
+        "firmwares": [
+            {
+                "id": "JCI-ESP32-CONTROLLER",
+                "description": "JCI ESP32 CONTROLLER",
+                "filesystem": "default"
+            },
+            {
+                "id": "JCI-ESP32-CONTROLLER-OTA",
+                "description": "JCI ESP32 CONTROLLER with OTA",
+                "filesystem": "default"
+            }
+        ]
+    },
+    {
         "description": "Whitecat ESP32N1",
         "manufacturer": "whitecatboard.org",
         "image": "http://git.whitecatboard.org/whitecatn1.png",

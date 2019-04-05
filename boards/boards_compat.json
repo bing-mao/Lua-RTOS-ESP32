@@ -1,5 +1,15 @@
 [
 	{
+		"id": "JCI-ESP32-CONTROLLER",
+		"type": "JCI-ESP32-CONTROLLER",
+		"subtype": ""
+	},
+	{
+		"id": "JCI-ESP32-CONTROLLER-OTA",
+		"type": "JCI-ESP32-CONTROLLER",
+		"subtype": ""
+	},
+	{
 		"id": "WHITECAT-ESP32-N1",
 		"type": "N1ESP32",
 		"subtype": ""
