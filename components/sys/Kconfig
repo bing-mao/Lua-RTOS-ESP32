@@ -1433,6 +1433,22 @@ menu "Lua RTOS"
                depends on LUA_RTOS_LUA_USE_SENSOR
                bool "VH400"
                default y
+            config LUA_RTOS_USE_BINARY_OUTPUT
+               depends on LUA_RTOS_LUA_USE_SENSOR
+               bool "BINARY-OUTPUT"
+               default y
+            config LUA_RTOS_USE_BINARY_INPUT
+               depends on LUA_RTOS_LUA_USE_SENSOR
+               bool "BINARY-INPUT"
+               default y
+            config LUA_RTOS_USE_ANALOG_OUTPUT
+               depends on LUA_RTOS_LUA_USE_SENSOR
+               bool "ANALOG-OUTPUT"
+               default y
+            config LUA_RTOS_USE_UNIVERSAL_INPUT
+               depends on LUA_RTOS_LUA_USE_SENSOR
+               bool "UNIVERSAL-INPUT"
+               default y
          endmenu
       endmenu
 
